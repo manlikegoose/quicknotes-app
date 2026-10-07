@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MY note app</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <h2 class="header_h2">MY NOTES APP</h2>
+      <p>Welcome to my super cool notes app!</p>
+    </header>
+    <main>
+      <section>
+        <h2>Add your notes</h2>
+        <form class="form">
+          <label for="input-note">NOTES</label>
+          <textarea id="input-note" placeholder="Type your note..."></textarea>
+          <label for="category">Choose a Category</label>
+          <select id="category" name="category">
+            <option value="personal">Personal</option>
+            <option value="work">Work</option>
+            <option value="study">Study</option>
+          </select>
+          <button id="submit-btn" type="submit">Add Note</button>
+
+          <p></p>
+        </form>
+      </section>
+      <section>
+        <h2>Your Notes</h2>
+        <input id="search" type="search" placeholder="Search notes...">
+        <p id="note-count">Count</p>
+        <ul id="notes-list">
+            <li></li>
+            <li></li>
+        </ul>
+
+      </section>
+    </main>
+    <footer></footer>
+  </body>
+</html>
