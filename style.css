@@ -160,3 +160,14 @@ header p {
 }
 
 }
+.delete-btn{
+  padding: 5px 10px;
+  background-color: red;
+  color: whitesmoke;
+  border-radius: 7px;
+
+
+}
+.delete-btn:hover{
+  background-color: orangered;
+}
