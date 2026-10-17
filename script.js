@@ -6,10 +6,13 @@ const notesList = document.querySelector('.notes-list')
 const searchInput = document.querySelector('#search-input')
 const noteCount = document.querySelector('#note-count')
 
-function saveNotes(){
+
+
+    function saveNotes(){
     localStorage.setItem('notes',JSON.stringify(notes))
 }
 
+}
 form.addEventListener('submit',(event) =>{
         event.preventDefault();
 
